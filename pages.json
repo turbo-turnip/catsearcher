@@ -1,7 +1,7 @@
-// pages.js stores data on all of the different pages
+// pages.json stores data on all of the different pages
 
 
-let pages = [
+[
 	{
 		"title": "All About Cats Clinic",
 		"url": "https://www.allaboutcatsclinic.com/"
