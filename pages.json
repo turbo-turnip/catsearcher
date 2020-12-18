@@ -1,0 +1,1205 @@
+// pages.js stores data on all of the different pages
+
+
+let pages = [
+	{
+		"title": "All About Cats Clinic",
+		"url": "https://www.allaboutcatsclinic.com/"
+	},
+	{
+		"title": "All About Cats",
+		"url": "https://allaboutcats.com/"
+	},
+	{
+		"title": "Fun Facts About Cats",
+		"url": "https://www.purina.co.uk/cats/behaviour-and-training/understanding-cat-behaviour/fun-facts-about-cats"
+	},
+	{
+		"title": "Facts About Cats",
+		"url": "https://www.mentalfloss.com/article/578211/cat-facts"
+	},
+	{
+		"title": "101 Amazing Cat Facts",
+		"url": "https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/"
+	},
+	{
+		"title": "10 Fascinating Cat Facts",
+		"url": "https://www.purina.com/articles/cat/facts/10-fascinating-facts-about-cats"
+	},
+	{
+		"title": "All About Cats",
+		"url": "https://www.companionanimalpsychology.com/p/all-about-cats.html"
+	},
+	{
+		"title": "Fun Cat Facts For Kids",
+		"url": "https://www.sciencekids.co.nz/sciencefacts/animals/cat.html"
+	},
+	{
+		"title": "The Cat",
+		"url": "https://www.nationalgeographic.com/animals/mammals/d/domestic-cat/"
+	},
+	{
+		"title": "Interesting Facts About The Cat",
+		"url": "https://www.mspca.org/pet_resources/interesting-facts-about-cats/"
+	},
+	{
+		"title": "100 Cat Facts You Should Read Meow",
+		"url": "https://www.thefactsite.com/cat-facts/"
+	},
+	{
+		"title": "The Cat",
+		"url": "https://en.wikipedia.org/wiki/Cat"
+	},
+	{
+		"title": "10 Facts For Cat Lovers",
+		"url": "https://www.livescience.com/13884-kitty-kitty-10-facts-cat-lovers.html"
+	},
+	{
+		"title": "8 Mind-Blowing Facts About Cats",
+		"url": "https://www.sciencefocus.com/nature/cat-facts-science/"
+	},
+	{
+		"title": "About Cats",
+		"url": "http://www.allaboutcats.org/about/"
+	},
+	{
+		"title": "General Cat Care",
+		"url": "https://www.aspca.org/pet-care/cat-care/general-cat-care"
+	},
+	{
+		"title": "Natural Cat Remedies",
+		"url": "https://www.onlynaturalpet.com/?cc=&gclid=EAIaIQobChMIndrzg4qt7QIVFzytBh3veQCaEAMYAiAAEgJe5vD_BwE"
+	},
+	{
+		"title": "67 Cat Facts",
+		"url": "https://www.factslides.com/s-Cats"
+	},
+	{
+		"title": "10 Interesting Cat Facts",
+		"url": "https://www.purina.ca/articles/cat/facts/10-fascinating-facts-about-cats"
+	},
+	{
+		"title": "Fun Facts About Cats & Kittens",
+		"url": "https://pets.webmd.com/cats/rm-quiz-fun-cat-facts"
+	},
+	{
+		"title": "20 Sweet Reasons Why Cats Are The Best Pet",
+		"url": "https://www.goodhousekeeping.com/life/pets/g21525625/why-cats-are-best-pets/"
+	},
+	{
+		"title": "All About Cats, Cat Care, Car Food, Product Reviews",
+		"url": "https://all-about-cats.com/"
+	},
+	{
+		"title": "All about cats: the latest research, misconceptions and more",
+		"url": "https://www.dvm360.com/view/all-about-cats-breakthrough-research-misconceptions-and-more"
+	},
+	{
+		"title": "12 Best Cat Food",
+		"url": "https://pethunts.com/12-best-cat-food-for-weight-loss/"
+	},
+	{
+		"title": "The Inner Life Of Cats",
+		"url": "https://www.scientificamerican.com/article/the-inner-life-of-cats/"
+	},
+	{
+		"title": "Thinking Of Getting A Cat?",
+		"url": "https://icatcare.org/advice/thinking-of-getting-a-cat/"
+	},
+	{
+		"title": "All About Cats",
+		"url": "https://www.tenthlifecats.org/all-about-cats"
+	},
+	{
+		"title": "Cat Breeds And Facts",
+		"url": "https://www.britannica.com/animal/cat"
+	},
+	{
+		"title": "Cat Facts By World Animal Foundation",
+		"url": "https://www.worldanimalfoundation.com/companions/cats/"
+	},
+	{
+		"title": "Awesome Cat Facts",
+		"url": "https://www.purina.com.au/cats/care/cat-facts#.X8ZiVRd7mF0"
+	},
+	{
+		"title": "25 Cat Facts You Didn't Know",
+		"url": "https://coleandmarmalade.com/2018/12/31/25-interesting-facts-about-cats-you-may-not-have-known/"
+	},
+	{
+		"title": "Little-Did-You-Know Cat Facts",
+		"url": "https://www.goodnet.org/articles/8-amazing-little-did-you-know-facts-about-cats-list"
+	},
+	{
+		"title": "All About Cats",
+		"url": "https://learnwithhomer.com/library/story/all-about-cats/"
+	},
+	{
+		"title": "The Natural History Of Domestic Cats",
+		"url": "https://www.alleycat.org/resources/the-natural-history-of-the-cat/"
+	},
+	{
+		"title": "Facts About Cats Infographic",
+		"url": "https://www.readynest.com/homebuyer-stories/facts-about-cats-infographic"
+	},
+	{
+		"title": "Interesting And Fun Cat Facts",
+		"url": "https://www.factretriever.com/cat-facts"
+	},
+	{
+		"title": "Fun Facts About Cats",
+		"url": "https://caledoniavets.com/fun-facts-about-cats"
+	},
+	{
+		"title": "Become A Responsible Cat Owner",
+		"url": "https://www.thesprucepets.com/cats-4162124"
+	},
+	{
+		"title": "101 Cat Facts: Fun Trivia About Felines",
+		"url": "https://www.care.com/c/stories/6045/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/"
+	},
+	{
+		"title": "Cats For Kids: Learn about the house cat or domesticated cat",
+		"url": "https://www.ducksters.com/animals/cats.php"
+	},
+	{
+		"title": "Feral Cat Facts",
+		"url": "https://www.havahart.com/feral-cat-facts"
+	},
+	{
+		"title": "Understanding Cat Behaviour",
+		"url": "https://www.pawschicago.org/news-resources/all-about-cats/understanding-cat-behavior/"
+	},
+	{
+		"title": "International Cat Day! Fun Facts About Cats",
+		"url": "https://www.fox6now.com/news/happy-international-cat-day-here-are-10-fun-facts-about-cats"
+	},
+	{
+		"title": "11 Fun Facts About Cats",
+		"url": "https://petwantsnashvillesouth.com/11-fun-facts-cats/"
+	},
+	{
+		"title": "Complete Guide To Caring For Cats",
+		"url": "http://www.vetstreet.com/cats/"
+	},
+	{
+		"title": "100 Surprising Cat Facts You Didn't Know About",
+		"url": "https://facts.net/nature/animals/cat-facts"
+	},
+	{
+		"title": "Facts About Cats (2020)",
+		"url": "https://untappd.com/b/listermann-brewing-company-facts-about-cats-2020/3730508"
+	},
+	{
+		"title": "500+ All About Cat Ideas",
+		"url": "https://www.pinterest.com/cattime/all-about-cats/"
+	},
+	{
+		"title": "14 Common \"Facts\" About Cats That Are Actually False",
+		"url": "https://www.rd.com/list/common-cat-myths/"
+	},
+	{
+		"title": "Interesting Facts About Cats",
+		"url": "https://medium.com/writers-blokke/interesting-facts-about-cats-6594010e3fe9"
+	},
+	{
+		"title": "20+ Unexpected Facts About Cats",
+		"url": "https://brightside.me/wonder-animals/20-unexpected-facts-about-cats-psychology-from-an-experienced-breeder-619410/"
+	},
+	{
+		"title": "Best Wet Cat Food",
+		"url": "https://www.chewy.com/b/wet-food-389"
+	},
+	{
+		"title": "Cat Chow",
+		"url": "https://www.purina.com/cat-chow?utm_campaign=pcg-catportfolio2020&utm_medium=cpc&utm_source=google&utm_content=unknown-unknow-feeding&utm_term=cat%20food&ds_rl=1285900&gclid=EAIaIQobChMIqcPex5Wt7QIVZAnnCh2-5QBsEAMYASAAEgL28fD_BwE&gclsrc=aw.ds"
+	},
+	{
+		"title": "Cat Food",
+		"url": "https://www.petco.com/shop/en/petcostore/category/cat/cat-food"
+	},
+	{
+		"title": "Cat Food - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Cat_food"
+	},
+	{
+		"title": "Best Cat Food In 2020",
+		"url": "https://www.businessinsider.com/best-cat-food"
+	},
+	{
+		"title": "Cats Cat Food",
+		"url": "https://www.informationvine.com/index?qsrc=999&qo=semQuery&ad=semD&o=1228938&l=sem&askid=cdefe852-68af-4a80-a9fe-aa89bb9e301e-0-iv_gsb&q=cats%20cat%20food&dqi=&am=broad&an=google_s&gclid=EAIaIQobChMIu6HWqZWt7QIVdAytBh0ligUMEAMYAiAAEgJytvD_BwE"
+	},
+	{
+		"title": "6 Things Your Vet Wants You To Know About Cat Food",
+		"url": "https://pets.webmd.com/cats/features/cat-food-facts#1"
+	},
+	{
+		"title": "Feeding Your Cat",
+		"url": "https://catinfo.org/"
+	},
+	{
+		"title": "Best Cat Food",
+		"url": "https://www.chewy.com/b/food-387"
+	},
+	{
+		"title": "16 Best Cat Foods In 2020",
+		"url": "https://allaboutcats.com/best-cat-food"
+	},
+	{
+		"title": "What Are The Ingredients In Cat Food?",
+		"url": "https://www.thesprucepets.com/about-cat-food-ingredients-551949"
+	},
+	{
+		"title": "10 Cat Food Myths",
+		"url": "http://www.petsage.com/10-cat-food-myths.html"
+	},
+	{
+		"title": "Optimum Feline Nutrition",
+		"url": "https://www.catcarecenter.com/services/cats/feline-nutrition-cat-food"
+	},
+	{
+		"title": "Dry foods and risk of disease in cats",
+		"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2387258/"
+	},
+	{
+		"title": "Go! Solutions Cat Food",
+		"url": "https://www.petcurean.com/for-cats/go-solutions/?gclid=EAIaIQobChMIxO6B4_-t7QIVxiCtBh2PJAtNEAMYAiAAEgJ7BPD_BwE"
+	},
+	{
+		"title": "What Do Cats Eat?",
+		"url": "https://www.purina.com/articles/cat/feeding/what-do-cats-eat"
+	},
+	{
+		"title": "Cat Food",
+		"url": "https://www.purina.com/cats/cat-food"
+	},
+	{
+		"title": "How to buy the best cat food, according to veterinarians",
+		"url": "https://www.nbcnews.com/shopping/pets/best-cat-food-n1235804"
+	},
+	{
+		"title": "Benefits Of Dry Cat Food",
+		"url": "https://tikipets.com/the-benefits-of-dry-cat-food/"
+	},
+	{
+		"title": "The Best Cat Foods for Indoor Cats (2020 Reviews)",
+		"url": "https://catlifetoday.com/best-cat-foods-for-indoor-cats/"
+	},
+	{
+		"title": "10 Tips To Improve Your Cat's Diet",
+		"url": "https://weareallaboutcats.com/10-tips-to-improve-your-cats-diet/"
+	},
+	{
+		"title": "The Truth About Cat And Dog Food",
+		"url": "https://www.nytimes.com/2010/06/01/health/01brod.html"
+	},
+	{
+		"title": "Healthy Cat Food",
+		"url": "https://www.justfoodfordogs.com/just-cats/"
+	},
+	{
+		"title": "What's Really In Cat Food?",
+		"url": "https://twocrazycatladies.com/cat-health-issues/whats-really-cat-food/"
+	},
+	{
+		"title": "Cat Food Mystery Foils Diet Study",
+		"url": "https://www.sciencedaily.com/releases/2020/02/200228105224.htm"
+	},
+	{
+		"title": "The Truth About Commercial Cat Food",
+		"url": "https://www.drbasko.com/portfolio-items/truth-commercial-cat-food/"
+	},
+	{
+		"title": "The Most Important Decision",
+		"url": "https://feline-nutrition.org/nutrition"
+	},
+	{
+		"title": "Common Cat Food Related Health Issues",
+		"url": "https://pethelpful.com/cats/Cat-Food-And-Health-Issues-Guide"
+	},
+	{
+		"title": "The Pandemic Is A Good Time To Be In The Cat Food Business",
+		"url": "https://www.theguardian.com/business/2020/aug/14/small-business-cat-food-opportunities-pandemic"
+	},
+	{
+		"title": "Cat Food, Nutrition Care",
+		"url": "https://www.royalcanin.com/us/cats"
+	},
+	{
+		"title": "Cat Food | Types & Variants | Best Brands | Reviews",
+		"url": "https://theidlecat.com/food/"
+	},
+	{
+		"title": "Grain-Free Canned & Wet Cat Food",
+		"url": "https://www.iandloveandyou.com/shop/cat/wet"
+	},
+	{
+		"title": "5 Things to Look for in a Quality Dry Cat Food",
+		"url": "https://www.wellnesspetfood.com/our-community/wellness-blog/health-nutrition/diet/5-things-look-quality-dry-cat-food"
+	},
+	{
+		"title": "The Best Food For Your Cat",
+		"url": "https://consciouscat.net/2012/03/22/the-best-food-for-your-cat/"
+	},
+	{
+		"title": "Freshpet All Natural Cat Food",
+		"url": "https://freshpet.com/cat/"
+	},
+	{
+		"title": "Raw Cat Food Recipes",
+		"url": "https://www.darwinspet.com/cat-food/"
+	},
+	{
+		"title": "Pet Food Nutrition Articles",
+		"url": "https://www.petfoodindustry.com/topics/306-pet-food-nutrition"
+	},
+	{
+		"title": "List Of Cat Breeds",
+		"url": "https://www.petfinder.com/cat-breeds/"
+	},
+	{
+		"title": "Explore All Cat Breeds",
+		"url": "https://www.purina.com/cats/cat-breeds"
+	},
+	{
+		"title": "Cat Breeds",
+		"url": "https://cfa.org/breeds/"
+	},
+	{
+		"title": "List Of Cat Breeds - Wiki",
+		"url": "https://en.wikipedia.org/wiki/List_of_cat_breeds"
+	},
+	{
+		"title": "Guide To Cat Breeds",
+		"url": "https://www.thesprucepets.com/cat-breeds-4162123"
+	},
+	{
+		"title": "Top 10 Cat Breeds",
+		"url": "https://www.petinsurance.com/healthzone/pet-breeds/cat-breeds/lifestyle-cat-breeds/top-10-cat-breeds/"
+	},
+	{
+		"title": "Cat Breed Info Center",
+		"url": "https://cattime.com/cat-breeds"
+	},
+	{
+		"title": "Cat Breed Selector Guide",
+		"url": "http://www.animalplanet.com/breedselector/catselectorindex.do"
+	},
+	{
+		"title": "Cat Breed Information Ultimate Resource",
+		"url": "http://www.vetstreet.com/cats/breeds"
+	},
+	{
+		"title": "Cat Breeds",
+		"url": "https://vcahospitals.com/know-your-pet/cat-breeds"
+	},
+	{
+		"title": "Shorthair Cat Breeds",
+		"url": "https://www.britannica.com/list/shorthair-cat-breeds"
+	},
+	{
+		"title": "Cat Breed Library",
+		"url": "https://www.royalcanin.com/us/cats/breeds/breed-library"
+	},
+	{
+		"title": "Cat Breeds",
+		"url": "https://www.whiskas.co.uk/cat-breeds/cat-breeds-a-z"
+	},
+	{
+		"title": "Weird Cat Breeds",
+		"url": "https://blog.cheapism.com/weird-cat-breeds/"
+	},
+	{
+		"title": "A-Z Cat Breeds",
+		"url": "https://wamiz.co.uk/cat/breeds"
+	},
+	{
+		"title": "Cat Breed Articles",
+		"url": "https://www.aspcapetinsurance.com/resources/pet-breed-cat/"
+	},
+	{
+		"title": "10 Popular Cat Breeds And Their Personalities",
+		"url": "https://animalcarectr.com/ten-popular-cat-breeds-and-their-personalities/"
+	},
+	{
+		"title": "Cat Breeds",
+		"url": "https://www.hillspet.com/cat-care/breeds"
+	},
+	{
+		"title": "100+ Cat Breed Ideas",
+		"url": "https://www.pinterest.com/KingstonAnimal/cat-breeds/"
+	},
+	{
+		"title": "Cat Breeds and Their Personalities, According to Research",
+		"url": "https://www.psychologytoday.com/us/blog/the-modern-heart/202006/cat-breeds-and-their-personalities-according-research"
+	},
+	{
+		"title": "Which Cat Should I Get?",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/breed-selector"
+	},
+	{
+		"title": "30 Of The Most Popular Cat Breeds",
+		"url": "https://www.boredpanda.com/cat-breeds-omg-meow/"
+	},
+	{
+		"title": "Cat Breeds — An Overview",
+		"url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cat-breeds"
+	},
+	{
+		"title": "How Were Cat Breeds Created?",
+		"url": "https://basepaws.com/blogs/news/how-cat-breeds-were-created"
+	},
+	{
+		"title": "Cat Breeds",
+		"url": "https://www.ctvsh.com/services/cats/breeds"
+	},
+	{
+		"title": "7 Friendliest Cat Breeds",
+		"url": "https://www.omlet.co.uk/guide/cats/choosing_the_right_cat_for_you/7_friendliest_cat_breeds"
+	},
+	{
+		"title": "All About Cat Breeds",
+		"url": "https://www.animalclinicofwoodruff.com/pet-blog/90/All+About+Cat+Breeds"
+	},
+	{
+		"title": "Persian Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Persian_cat"
+	},
+	{
+		"title": "Persian Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/persian-cats"
+	},
+	{
+		"title": "Persian Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/persian/"
+	},
+	{
+		"title": "Persian Cat Facts: History, Personality, And Care",
+		"url": "https://www.aspcapetinsurance.com/resources/persian-cat-facts/"
+	},
+	{
+		"title": "British Shorthair - Wiki",
+		"url": "https://en.wikipedia.org/wiki/British_Shorthair"
+	},
+	{
+		"title": "British Shorthair Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/british-shorthair/"
+	},
+	{
+		"title": "British Shorthair Cat Breed Profile",
+		"url": "https://www.purina.com/cats/cat-breeds/british-shorthair"
+	},
+	{
+		"title": "British Shorthair Cat Breed Information",
+		"url": "http://www.vetstreet.com/cats/british-shorthair"
+	},
+	{
+		"title": "British Shorthair Cat Breed Information, Pictures",
+		"url": "https://cattime.com/cat-breeds/british-shorthair-cats"
+	},
+	{
+		"title": "The British Shorthair",
+		"url": "https://www.royalcanin.com/us/cats/breeds/breed-library/british-shorthair"
+	},
+	{
+		"title": "Maine Coon - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Maine_Coon"
+	},
+	{
+		"title": "Maine Coon Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/maine-coon/"
+	},
+	{
+		"title": "Maine Coon Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/maine-coon-cats"
+	},
+	{
+		"title": "Maine Coon Cat Breed Information",
+		"url": "http://www.vetstreet.com/cats/maine-coon"
+	},
+	{
+		"title": "Maine Coon Cat Breed Information & Characteristics",
+		"url": "https://www.dailypaws.com/cats-kittens/cat-breeds/maine-coon"
+	},
+	{
+		"title": "Siamese Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Siamese_cat"
+	},
+	{
+		"title": "Siamese Cat Breed Information",
+		"url": "https://cattime.com/cat-breeds/siamese-cats#/slide/1"
+	},
+	{
+		"title": "Siamese Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/siamese/"
+	},
+	{
+		"title": "Siamese Cat Breed - Facts And Personality",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/siamese"
+	},
+	{
+		"title": "Siamese Cat Information",
+		"url": "http://www.vetstreet.com/cats/siamese"
+	},
+	{
+		"title": "Ragdoll Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Ragdoll"
+	},
+	{
+		"title": "Ragdoll Cat Breed Information",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/ragdoll"
+	},
+	{
+		"title": "Ragdoll Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/ragdoll/"
+	},
+	{
+		"title": "Ragdoll Cats Cat Breed Information, Pictures Characteristics",
+		"url": "https://cattime.com/cat-breeds/ragdoll-cats"
+	},
+	{
+		"title": "Ragdoll Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/ragdoll"
+	},
+	{
+		"title": "American Shorthair Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/american-shorthair/"
+	},
+	{
+		"title": "American Shorthair - Wiki",
+		"url": "https://en.wikipedia.org/wiki/American_Shorthair"
+	},
+	{
+		"title": "American Shorthair Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/american-shorthair"
+	},
+	{
+		"title": "American Shorthair Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/american-shorthair"
+	},
+	{
+		"title": "American Shorthair Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/american-shorthair"
+	},
+	{
+		"title": "American Shorthair Cat Breed Information, Pictures",
+		"url": "https://cattime.com/cat-breeds/american-shorthair"
+	},
+	{
+		"title": "Sphynx Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Sphynx_cat"
+	},
+	{
+		"title": "Sphynx Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/sphynx#1_4uf48kos"
+	},
+	{
+		"title": "Sphynx Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/sphynx"
+	},
+	{
+		"title": "Hairless Cats: Breeds, Info and facts | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/collections/hairless-cats/"
+	},
+	{
+		"title": "Sphynx / Hairless Cat Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/sphynx/"
+	},
+	{
+		"title": "All About Sphynx Cats - ASPCA Pet Insurance",
+		"url": "https://www.aspcapetinsurance.com/resources/sphynx-cat-breed-information/"
+	},
+	{
+		"title": "Bengal Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Bengal_cat"
+	},
+	{
+		"title": "Bengal Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/bengal/"
+	},
+	{
+		"title": "Bengal Cat Breed Information, Pictures, Behavior and Care",
+		"url": "https://cattime.com/cat-breeds/bengal-cats"
+	},
+	{
+		"title": "Bengal Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/bengal"
+	},
+	{
+		"title": "Bengal Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/breeds/bengal-cat"
+	},
+	{
+		"title": "Bengal Cat Breed Information and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/bengal"
+	},
+	{
+		"title": "Bengal Cat Facts - ASPCA Pet Insurance",
+		"url": "https://www.aspcapetinsurance.com/resources/bengal-cat-facts/"
+	},
+	{
+		"title": "Abyssinian Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Abyssinian_cat"
+	},
+	{
+		"title": "Abyssinian Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/abyssinian"
+	},
+	{
+		"title": "Abyssinian Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/abyssinian"
+	},
+	{
+		"title": "Abyssinian Cat Breed Profile",
+		"url": "https://www.petfinder.com/cat-breeds/abyssinian/"
+	},
+	{
+		"title": "Abyssinian Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/abyssinian#1_0rlcvc6j"
+	},
+	{
+		"title": "Abyssinian Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/breeds/abyssinian-cat"
+	},
+	{
+		"title": "Scottish Fold Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Scottish_Fold"
+	},
+	{
+		"title": "Scottish Fold Cat Profile - Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/scottish-fold/"
+	},
+	{
+		"title": "Scottish Fold Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/scottish-fold-cats"
+	},
+	{
+		"title": "5 Things You Didn't Know About Scottish Fold Cats",
+		"url": "https://www.petinsurance.com/healthzone/pet-breeds/cat-breeds/5-things-you-didnt-know-about-scottish-fold-cats/"
+	},
+	{
+		"title": "Scottish Fold Cat Breed - Facts and Chatacteristic Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/scottish-fold"
+	},
+	{
+		"title": "Scottish Fold / Highland Fold Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/scottish-fold-highland-fold"
+	},
+	{
+		"title": "Birman Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/birman"
+	},
+	{
+		"title": "Birman Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Birman"
+	},
+	{
+		"title": "Birman Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/birman"
+	},
+	{
+		"title": "Birman Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/birman/"
+	},
+	{
+		"title": "Birman Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/birman"
+	},
+	{
+		"title": "Birman Cat Breed | Purina",
+		"url": "https://www.purina.com/breeds/birman-cat-breed"
+	},
+	{
+		"title": "Birman Cat Breed Information, Pictures, Characteristics & Facts",
+		"url": "https://cattime.com/cat-breeds/birman-cats"
+	},
+	{
+		"title": "Burmese Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/burmese"
+	},
+	{
+		"title": "Burmese Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/burmese/"
+	},
+	{
+		"title": "Burmese Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Burmese_cat"
+	},
+	{
+		"title": "Burmese Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/burmese"
+	},
+	{
+		"title": "11 Facts You Probably Don't Know About The Burmese Cat",
+		"url": "https://www.rover.com/blog/burmese-cat/"
+	},
+	{
+		"title": "Burmese Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/burmese"
+	},
+	{
+		"title": "Burmese Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/burmese"
+	},
+	{
+		"title": "Exotic Shorthair Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/exotic-shorthair/"
+	},
+	{
+		"title": "Exotic Shorthair - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Exotic_Shorthair"
+	},
+	{
+		"title": "Exotic Shorthair Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/exotic-shorthair"
+	},
+	{
+		"title": "Learn About The Exotic Shorthair Cat Breed",
+		"url": "https://www.johnsonanimalclinic.com/services/cats/breeds/exotic-shorthair"
+	},
+	{
+		"title": "Exotic Shorthair Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/exotic-shorthair"
+	},
+	{
+		"title": "Exotic Shorthair - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/exotic-shorthair-cat-breed-profile-4774331"
+	},
+	{
+		"title": "Exotic Shorthair Cat Breed Information & Characteristics",
+		"url": "https://www.dailypaws.com/cats-kittens/cat-breeds/exotic-shorthair"
+	},
+	{
+		"title": "Siberian Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/siberian/"
+	},
+	{
+		"title": "Siberian Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Siberian_cat"
+	},
+	{
+		"title": "Siberian Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/siberian"
+	},
+	{
+		"title": "Siberian Cat Facts - ASPCA Pet Insurance",
+		"url": "https://www.aspcapetinsurance.com/resources/siberian-cat-facts/"
+	},
+	{
+		"title": "Siberian Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/siberian-cats"
+	},
+	{
+		"title": "Siberian Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/siberian"
+	},
+	{
+		"title": "Russian Blue Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Russian_Blue"
+	},
+	{
+		"title": "Russian Blue Cat: Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/russian-blue"
+	},
+	{
+		"title": "Fun Facts About Russian Blue Cats - ASPCA Pet Insurance",
+		"url": "https://www.aspcapetinsurance.com/resources/russian-blue-cat-facts/"
+	},
+	{
+		"title": "Russian Blue Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/russian-blue/"
+	},
+	{
+		"title": "Russian Blue Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/russian-blue"
+	},
+	{
+		"title": "Russian Blue Cat - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/russian-blue-cat-4580390"
+	},
+	{
+		"title": "Russian Blue Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/russian-blue"
+	},
+	{
+		"title": "Norwegian Forest Cat Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/norwegian-forest-cat/"
+	},
+	{
+		"title": "Norwegian Forest Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Norwegian_Forest_cat"
+	},
+	{
+		"title": "Norwegian Forest Cat",
+		"url": "https://cfa.org/norwegian-forest-cat/"
+	},
+	{
+		"title": "Norwegian Forest Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/norwegian-forest-cats"
+	},
+	{
+		"title": "Norwegian Forest Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/norwegian-forest-cat"
+	},
+	{
+		"title": "8 Cute Pictures Of Norwegian Forest Cats",
+		"url": "https://www.thesprucepets.com/pictures-of-norwegian-forest-cats-4172243"
+	},
+	{
+		"title": "Norwegian Forest Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/norwegian-forest-cat"
+	},
+	{
+		"title": "Japanese Bobtail Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Japanese_Bobtail"
+	},
+	{
+		"title": "Japanese Bobtail",
+		"url": "https://cfa.org/japanese-bobtail/"
+	},
+	{
+		"title": "Japanese Bobtail Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/japanese-bobtail"
+	},
+	{
+		"title": "Japanese Bobtail Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/japanese-bobtail/"
+	},
+	{
+		"title": "Japanese Bobtail Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/japanese-bobtail"
+	},
+	{
+		"title": "Japanese Bobtail Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/japanese-bobtail-cats"
+	},
+	{
+		"title": "7 Unusual Facts About Japanese Bobtail Cats",
+		"url": "https://www.mentalfloss.com/article/80475/7-unusual-facts-about-japanese-bobtail-cats"
+	},
+	{
+		"title": "Himalayan Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/himalayan/"
+	},
+	{
+		"title": "Himalayan Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/himalayan"
+	},
+	{
+		"title": "Himalayan Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Himalayan_cat"
+	},
+	{
+		"title": "Himalayan Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/himalayan"
+	},
+	{
+		"title": "Himalayan Cat - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/himalayan-cat-breed-profile-4691062"
+	},
+	{
+		"title": "Himalayan Cat Facts - ASPCA Pet Insurance",
+		"url": "https://www.aspcapetinsurance.com/resources/himalayan-cat-facts/"
+	},
+	{
+		"title": "10 Fast Facts About The Himalayan Cats",
+		"url": "https://www.rover.com/blog/himalayan-cat/"
+	},
+	{
+		"title": "Himalayan Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/himalayan"
+	},
+	{
+		"title": "Munchkin Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Munchkin_cat"
+	},
+	{
+		"title": "Munchkin Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/munchkin/"
+	},
+	{
+		"title": "Munchkin Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/munchkin"
+	},
+	{
+		"title": "Munchkin Cat - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/munchkin-cat-profile-551883"
+	},
+	{
+		"title": "11 Things To Know About The Munchkin Cat - Catster",
+		"url": "https://www.catster.com/cats-101/about-the-munchkin-cat"
+	},
+	{
+		"title": "Munchkin Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/munchkin"
+	},
+	{
+		"title": "Munchkin Cats: Is Breeding Deformity Animal Abuse?",
+		"url": "https://cattime.com/cat-facts/health/21311-munchkin-cat-trend-is-breeding-deformity-animal-abuse"
+	},
+	{
+		"title": "7 Short Facts About Munchkin Cats",
+		"url": "https://www.mentalfloss.com/article/80011/7-short-facts-about-munchkin-cats"
+	},
+	{
+		"title": "Devon Rex Cat",
+		"url": "https://cfa.org/devon-rex/"
+	},
+	{
+		"title": "Devon Rex Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/devon-rex"
+	},
+	{
+		"title": "Devon Rex Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/devon-rex/"
+	},
+	{
+		"title": "Devon Rex Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/devon-rex"
+	},
+	{
+		"title": "Devon Rex Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/devon-rex"
+	},
+	{
+		"title": "Devon Rex Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/devon-rex"
+	},
+	{
+		"title": "Devon Rex Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/devon-rex-cats#/slide/1"
+	},
+	{
+		"title": "Cornish Rex Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/cornish-rex/"
+	},
+	{
+		"title": "Cornish Rex Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Cornish_Rex"
+	},
+	{
+		"title": "Cornish Rex Cat",
+		"url": "https://cfa.org/cornish-rex/"
+	},
+	{
+		"title": "Cornish Rex Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/cornish-rex"
+	},
+	{
+		"title": "Cornish Rex Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/cornish-rex-cats"
+	},
+	{
+		"title": "Cornish Rex Cat Breed Information | Purina",
+		"url": "https://www.purina.co.uk/cats/cat-breeds/library/cornish-rex"
+	},
+	{
+		"title": "5 Things To Know About Cornish Rex Cats",
+		"url": "https://www.petful.com/cat-breeds/profile-cornish-rex/"
+	},
+	{
+		"title": "Cornish Rex - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/learn-all-about-the-cornish-rex-cat-4694497"
+	},
+	{
+		"title": "Manx Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Manx_cat"
+	},
+	{
+		"title": "Manx Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/manx"
+	},
+	{
+		"title": "Manx Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/manx"
+	},
+	{
+		"title": "Manx Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/manx/"
+	},
+	{
+		"title": "Manx Cat - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/manx-cat-4584387"
+	},
+	{
+		"title": "Manx Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/manx"
+	},
+	{
+		"title": "Everything You Ever Watned To Know About The Manx Cat",
+		"url": "https://www.rover.com/blog/manx-cats/"
+	},
+	{
+		"title": "Balinese Cat - Full Profile, History, and Care",
+		"url": "https://www.thesprucepets.com/balinese-cat-full-profile-history-and-care-4686126"
+	},
+	{
+		"title": "Balinese Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/balinese/"
+	},
+	{
+		"title": "Balinese Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Balinese_cat"
+	},
+	{
+		"title": "Balinese Cat Breed Informatoin - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/balinese"
+	},
+	{
+		"title": "Balinese Cat Breed Informatoin, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/balinese-cats"
+	},
+	{
+		"title": "Balinese Kittens For Sale - Adoptapet.com",
+		"url": "https://www.adoptapet.com/s/adopt-a-balinese"
+	},
+	{
+		"title": "Balinese Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/balinese"
+	},
+	{
+		"title": "5 Things To Know About Balinese Cats - Petful",
+		"url": "https://www.petful.com/cat-breeds/cat-breed-profile-balinese/"
+	},
+	{
+		"title": "American Curl Cat",
+		"url": "https://cfa.org/american-curl/"
+	},
+	{
+		"title": "American Curl Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/american-curl/"
+	},
+	{
+		"title": "American Curl Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/American_Curl"
+	},
+	{
+		"title": "American Curl Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/american-curl"
+	},
+	{
+		"title": "American Curl Cat Breed - Facts and Personality Traits",
+		"url": "https://www.hillspet.com/cat-care/cat-breeds/american-curl"
+	},
+	{
+		"title": "American Curl Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/american-curl-cats"
+	},
+	{
+		"title": "American Curl Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/american-curl"
+	},
+	{
+		"title": "American Curl Cats: 8 Facts You Probably Didn't Know",
+		"url": "https://www.rover.com/blog/american-curl-cats/"
+	},
+	{
+		"title": "American Curl Cats: 8 Facts You Probably Didn't Know",
+		"url": "https://www.rover.com/blog/american-curl-cats/"
+	},
+	{
+		"title": "American Bobtail Cat",
+		"url": "https://cfa.org/american-bobtail/"
+	},
+	{
+		"title": "American Bobtail Cat Breed Profile | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/american-bobtail/"
+	},
+	{
+		"title": "American Bobtail Cat Breed Information, Pictures, Characteristics",
+		"url": "https://cattime.com/cat-breeds/american-bobtail-cats"
+	},
+	{
+		"title": "American Bobtail Cat Breed Information - Vetstreet",
+		"url": "http://www.vetstreet.com/cats/american-bobtail"
+	},
+	{
+		"title": "American Bobtail Cat Breed Profile | Purina",
+		"url": "https://www.purina.com/cats/cat-breeds/american-bobtail"
+	},
+	{
+		"title": "American Bobtail Cat - Wiki",
+		"url": "https://en.wikipedia.org/wiki/American_Bobtail"
+	},
+	{
+		"title": "American Bobtail Cat Breed Information & Characteristics",
+		"url": "https://www.dailypaws.com/cats-kittens/cat-breeds/american-bobtail"
+	},
+	{
+		"title": "Cat Play And Toys - Wiki",
+		"url": "https://en.wikipedia.org/wiki/Cat_play_and_toys"
+	},
+	{
+		"title": "Cat Play The Right Way: 7 Mistakes To Avoid",
+		"url": "https://fearfreehappyhomes.com/cat-play-the-right-way-7-mistakes-to-avoid/"
+	},
+	{
+		"title": "What Current Science Tells Us About Cat Play",
+		"url": "https://fearfreepets.com/science-of-cat-play/"
+	},
+	{
+		"title": "Playing With Your Cat | Cat Friendly Homes",
+		"url": "https://catfriendly.com/cat-care-at-home/playing-with-your-cat/"
+	},
+	{
+		"title": "Cat Behavior and Training - Play and Play Toys",
+		"url": "https://vcahospitals.com/know-your-pet/cat-behavior-and-training---play-and-play-toys"
+	},
+	{
+		"title": "How To Play With Your Cat For Feline-Human Bonding",
+		"url": "https://www.thesprucepets.com/how-to-play-with-your-cat-552014"
+	},
+	{
+		"title": "Cat Furniture - CatsPlay Superstore",
+		"url": "https://www.catsplay.com/"
+	},
+	{
+		"title": "The 6 Best Cat Toys Of 2020",
+		"url": "https://www.thesprucepets.com/best-cat-toys-4153336"
+	},
+	{
+		"title": "18 Cat Toys With Thousands Of Positive Reviews",
+		"url": "https://www.usatoday.com/story/tech/reviewedcom/2020/09/08/18-cat-toys-thousands-positive-reviews/113685922/"
+	},
+	{
+		"title": "Best Cat Toys Of 2020 (so far)",
+		"url": "https://www.tuftandpaw.com/blogs/modern-cat-blog/best-cat-toys-of-2020-so-far"
+	},
+	{
+		"title": "15 Best Cat Toys 2020 - Fun Cat Toys Your Pet Will Love",
+		"url": "https://www.goodhousekeeping.com/life/pets/g34712533/best-cat-toys/"
+	},
+	{
+		"title": "The Best Cat Toys (Review) in 2020",
+		"url": "https://www.mypetneedsthat.com/best-cat-toys/"
+	},
+	{
+		"title": "Best Cat Toys In 2020: Catnip toys, laser toys, and mouses",
+		"url": "https://www.businessinsider.com/best-cat-toy"
+	},
+	{
+		"title": "9 Best Cat Toys Of 2020",
+		"url": "https://www.pumpkin.care/blog/the-best-9-cat-toys-of-2020/"
+	},
+	{
+		"title": "It's Kitten Season! Adopt A Loving Animal Today",
+		"url": "https://hsco.org/its-kitten-season/"
+	},
+	{
+		"title": "Cats & Kittens | Humane Society",
+		"url": "https://hsco.org/cats-kittens/"
+	},
+	{
+		"title": "Healthy Cats Guide: Caring For Your Kitten",
+		"url": "https://pets.webmd.com/cats/guide/kitten-care"
+	},
+	{
+		"title": "Taking Care Of Kittens",
+		"url": "https://pets.webmd.com/cats/ss/slideshow-taking-care-of-kitten"
+	},
+	{
+		"title": "What Are The Cutest Cat Breeds? | Petfinder",
+		"url": "https://www.petfinder.com/cat-breeds/collections/cutest-cat-breeds/"
+	},
+]
