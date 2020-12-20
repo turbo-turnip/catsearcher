@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Abel', arial;
+}
+body
+{
+	background: rgb(225, 245, 255);
+	display: flex;
+	flex-direction: column;
+}
+h1:first-child
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	font-size: 3em;
+}
+.fact
+{
+	width: 80%;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.fact::after
+{
+	content: "";
+	width: 30%;
+	height: 3px;
+	background:linear-gradient(90deg, #00de00, #0099ff);
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: .4s;
+}
+.fact:hover::after
+{
+	width: 50%;
+}
+.search
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3em auto;
+}
+.search > form
+{
+	width: 500px;
+	height: 42px;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 0 24px 6px #00000018;
+	border-radius: 8px;
+	position: relative;
+}
+form label
+{
+	width: 50px;
+	height: 100%;
+	background: #00d60088;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px 0 0 8px;
+	cursor: pointer;
+}
+form input
+{
+	flex: 1;
+	height: 100%;
+	border: none;
+	padding: 5px 1em;
+	font-size: 1em;
+	border-radius: 0 8px 8px 0;
+}
+.loop
+{
+	font-weight: normal;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 130%);
+	transition: .4s;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+}
+.articles
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10em;
+	position: relative;
+}
+.articles::before
+{
+	content: "";
+	width: 90%;
+	height: 1px;
+	background: #aaa;
+	position: absolute;
+	top: 0;
+	transform: translateY(-20px);
+	max-width: 770px;
+}
+.exit
+{
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translateY(-46px) translateX(-50%);
+	color: #666;
+	cursor: pointer;
+	max-width: 600px;
+}
+.exit i
+{
+	margin-left: .3em;
+	transition: .4s;
+}
+.exit:hover > i
+{
+	transform: translateY(5px);
+	cursor: pointer;
+}
+.articles > .article
+{
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	margin: 1.2em 1em;
+	box-shadow: 0 0 24px 6px #00000018;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 1em;
+	box-sizing: content-box;
+	transition: .4s;
+	position: relative;
+	cursor: pointer;
+}
+.article::after
+{
+	content: "";
+	width: 20%;
+	height: 5px;
+	background: #0099ff;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0 0 8px 8px;
+	transition: .4s;
+	opacity: 0;
+}
+.article:hover::after
+{
+	width: 100%;
+	opacity: 1;
+}
+.article > img
+{
+	width: 120px;
+	height: 100px;
+}
+.article > h1
+{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 1em;
+}
+
+
+
+
+
+
+
+@media (max-width: 530px)
+{
+	.cat-fact
+	{
+		display: none;
+	}
+	.search
+	{
+		width: 95%;
+	}
+}
+
+h5
+{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 1em;
+}
+.results
+{
+	padding: 2em 3em;
+	display: flex;
+	margin-bottom: 6em;
+	flex-direction: column;
+}
+.results > div
+{
+	margin: 1em auto;
+	padding: 1em 1.6em;
+	border-radius: 8px;
+	background: #fff;
+	width: 100%;
+	max-width: 500px;
+	box-shadow: 0 0 12px 6px #00000016;
+}
+.results > div > h2 > a
+{
+	color: #000;
+	cursor: pointer;
+}
+.results > div > h2
+{
+	margin-bottom: .3em;
+	cursor: pointer;
+	position: relative;
+}
+.request
+{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.request input
+{
+	width: 100%;
+	font-size: 1em;
+	padding: 5px 1em;
+	background: #fff;
+	border: 2px solid rgb(101, 252, 121);
+	border-radius: 8px;
+	margin: .4em 0;
+}
+.request button
+{
+	cursor: pointer;
+	font-size: 1.3em;
+	width: 50%;
+	padding: .2em 0;
+	border-radius: 8px;
+	border: none;
+	background: #fff;
+	box-shadow: 0 0 12px 5px #00000018;
+	margin: .6em 0 2em 0;
+}
+.request button:hover
+{
+	opacity: .5;
+}
+
+
+.oops
+{
+	width: 100vw;
+	position: absolute;
+	top: 80px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+ul .img
+{
+	width: 300px;
+	height: 200px;
+	background: url(images/oops.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+	margin: 1em auto;
+} 
+ul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+ul li
+{
+	justify-self: center;
+	margin: .2em auto;
+	font-size: 1.2em;
+}
